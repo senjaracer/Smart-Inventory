@@ -1,0 +1,42 @@
+[
+  {
+    "id": "SUP-001",
+    "nama": "PT. Elektronik Jaya",
+    "kontak": "0812-3456-7890",
+    "email": "info@elektronikjaya.com",
+    "alamat": "Jl. Sudirman No. 12, Jakarta Selatan",
+    "createdAt": "2026-01-10T08:00:00Z"
+  },
+  {
+    "id": "SUP-002",
+    "nama": "CV. Alat Kantor Makmur",
+    "kontak": "021-7654-3210",
+    "email": "sales@alatkantor.co.id",
+    "alamat": "Kawasan Industri Pulogadung Blok B, Jakarta Timur",
+    "createdAt": "2026-01-12T08:00:00Z"
+  },
+  {
+    "id": "SUP-003",
+    "nama": "Furniture Abadi Perkasa",
+    "kontak": "0815-9988-7766",
+    "email": "contact@furnitureabadi.com",
+    "alamat": "Jl. Raya Jepara KM 5, Jawa Tengah",
+    "createdAt": "2026-01-18T08:00:00Z"
+  },
+  {
+    "id": "SUP-004",
+    "nama": "Global Logistik Nusantara",
+    "kontak": "022-4455-6677",
+    "email": "cs@globallogistik.id",
+    "alamat": "Jl. Asia Afrika No. 45, Bandung",
+    "createdAt": "2026-02-05T08:00:00Z"
+  },
+  {
+    "id": "SUP-005",
+    "nama": "Sinar Mas Komputer",
+    "kontak": "0877-1122-3344",
+    "email": "b2b@sinarmas.com",
+    "alamat": "Mangga Dua Mall Lt. 3, Jakarta Utara",
+    "createdAt": "2026-02-15T08:00:00Z"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "BRG-001",
+    "nama": "Laptop Dell XPS 15",
+    "kategoriId": "KAT-001",
+    "supplierId": "SUP-001",
+    "stok": 15,
+    "satuan": "Unit",
+    "hargaBeli": 25000000,
+    "createdAt": "2026-01-20T10:00:00Z"
+  },
+  {
+    "id": "BRG-002",
+    "nama": "Kertas A4 80g PaperOne",
+    "kategoriId": "KAT-002",
+    "supplierId": "SUP-002",
+    "stok": 150,
+    "satuan": "Rim",
+    "hargaBeli": 45000,
+    "createdAt": "2026-01-22T10:00:00Z"
+  },
+  {
+    "id": "BRG-003",
+    "nama": "Tinta Printer Epson 664 Hitam",
+    "kategoriId": "KAT-002",
+    "supplierId": "SUP-002",
+    "stok": 5,
+    "satuan": "Botol",
+    "hargaBeli": 85000,
+    "createdAt": "2026-01-25T10:00:00Z"
+  },
+  {
+    "id": "BRG-004",
+    "nama": "Monitor Xiaomi",
+    "kategoriId": "KAT-001",
+    "supplierId": "SUP-001",
+    "stok": 8,
+    "satuan": "Unit",
+    "hargaBeli": 2100000,
+    "createdAt": "2026-02-01T10:00:00Z"
+  },
+  {
+    "id": "BRG-005",
+    "nama": "Kursi Kantor Ergonomis Jaring",
+    "kategoriId": "KAT-003",
+    "supplierId": "SUP-003",
+    "stok": 12,
+    "satuan": "Unit",
+    "hargaBeli": 1250000,
+    "createdAt": "2026-02-05T10:00:00Z"
+  },
+  {
+    "id": "BRG-006",
+    "nama": "Meja Kerja Minimalis 120cm",
+    "kategoriId": "KAT-003",
+    "supplierId": "SUP-003",
+    "stok": 20,
+    "satuan": "Unit",
+    "hargaBeli": 850000,
+    "createdAt": "2026-02-08T10:00:00Z"
+  },
+  {
+    "id": "BRG-007",
+    "nama": "Keyboard Logitech K380",
+    "kategoriId": "KAT-001",
+    "supplierId": "SUP-005",
+    "stok": 35,
+    "satuan": "Unit",
+    "hargaBeli": 420000,
+    "createdAt": "2026-02-10T10:00:00Z"
+  },
+  {
+    "id": "BRG-009",
+    "nama": "Lemari Arsip Besi 4 Laci",
+    "kategoriId": "KAT-003",
+    "supplierId": "SUP-003",
+    "stok": 3,
+    "satuan": "Unit",
+    "hargaBeli": 2800000,
+    "createdAt": "2026-02-15T10:00:00Z"
+  },
+  {
+    "id": "BRG-010",
+    "nama": "Sapu Lantai Serbaguna",
+    "kategoriId": "KAT-004",
+    "supplierId": "SUP-004",
+    "stok": 25,
+    "satuan": "Pcs",
+    "hargaBeli": 35000,
+    "createdAt": "2026-02-18T10:00:00Z"
+  },
+  {
+    "id": "BRG-011",
+    "nama": "Cairan Pembersih Lantai 5L",
+    "kategoriId": "KAT-004",
+    "supplierId": "SUP-004",
+    "stok": 10,
+    "satuan": "Galon",
+    "hargaBeli": 65000,
+    "createdAt": "2026-02-20T10:00:00Z"
+  },
+  {
+    "id": "BRG-012",
+    "nama": "Mouse Wireless Logitech M331",
+    "kategoriId": "KAT-001",
+    "supplierId": "SUP-005",
+    "stok": 0,
+    "satuan": "Unit",
+    "hargaBeli": 250000,
+    "createdAt": "2026-02-22T10:00:00Z"
+  },
+  {
+    "id": "BRG-013",
+    "nama": "Rak Gudang Besi 5 Tingkat",
+    "kategoriId": "KAT-005",
+    "supplierId": "SUP-003",
+    "stok": 7,
+    "satuan": "Unit",
+    "hargaBeli": 1500000,
+    "createdAt": "2026-02-25T10:00:00Z"
+  },
+  {
+    "id": "BRG-014",
+    "nama": "Stapler HD-10 Joyko",
+    "kategoriId": "KAT-002",
+    "supplierId": "SUP-002",
+    "stok": 40,
+    "satuan": "Pcs",
+    "hargaBeli": 25000,
+    "createdAt": "2026-03-01T10:00:00Z"
+  },
+  {
+    "id": "BRG-015",
+    "nama": "Palet Kayu 120x100cm",
+    "kategoriId": "KAT-005",
+    "supplierId": "SUP-004",
+    "stok": 2,
+    "satuan": "Unit",
+    "hargaBeli": 180000,
+    "createdAt": "2026-03-05T10:00:00Z"
+  },
+  {
+    "id": "BRG-016",
+    "nama": "Pulpen Sarasa",
+    "kategoriId": "KAT-002",
+    "supplierId": "SUP-002",
+    "stok": 150,
+    "satuan": "Pcs",
+    "hargaBeli": 20000,
+    "createdAt": "2026-05-16T15:30:43.544Z"
+  }
+]

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Inventory - Admin Dashboard</title>
+  <meta name="description" content="Smart Inventory Management System - Dashboard Admin untuk manajemen inventaris modern"/>
+  <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+  <!-- ============ LOGIN SCREEN ============ -->
+  <div class="login-screen" id="loginScreen">
+    <div class="login-bg-shapes">
+      <div class="login-shape login-shape-1"></div>
+      <div class="login-shape login-shape-2"></div>
+      <div class="login-shape login-shape-3"></div>
+    </div>
+    <div class="login-card">
+      <div class="login-header">
+        <div class="login-logo">SI</div>
+        <h1 class="login-brand">Smart Inventory</h1>
+        <p class="login-tagline">Management System</p>
+      </div>
+      <form id="loginForm" class="login-form">
+        <div class="login-error" id="loginError"></div>
+        <div class="form-group">
+          <label for="loginEmail">Email</label>
+          <div class="login-input-wrapper">
+            <span class="material-symbols-outlined">mail</span>
+            <input type="email" id="loginEmail" name="email" placeholder="admin@smartinventory.com" required autocomplete="email"/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="loginPassword">Password</label>
+          <div class="login-input-wrapper">
+            <span class="material-symbols-outlined">lock</span>
+            <input type="password" id="loginPassword" name="password" placeholder="Masukkan password" required autocomplete="current-password"/>
+            <button type="button" class="login-toggle-pw" id="togglePw">
+              <span class="material-symbols-outlined">visibility</span>
+            </button>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary login-submit" id="loginBtn">
+          <span class="material-symbols-outlined">login</span>
+          <span>Masuk</span>
+        </button>
+      </form>
+      <div class="login-footer">
+        <p>Demo: <strong>admin@smartinventory.com</strong> / <strong>admin123</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ APP SHELL ============ -->
+  <div class="app-shell" id="appShell" style="display:none">
+    <!-- Mobile Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-logo">SI</div>
+        <div>
+          <div class="sidebar-title">Smart Inventory</div>
+          <div class="sidebar-subtitle">Operational Admin</div>
+        </div>
+      </div>
+      <nav class="sidebar-nav">
+        <a class="nav-link active" href="#dashboard" data-page="dashboard">
+          <span class="material-symbols-outlined">dashboard</span>
+          <span>Dashboard</span>
+        </a>
+        <a class="nav-link" href="#barang" data-page="barang">
+          <span class="material-symbols-outlined">inventory_2</span>
+          <span>Barang</span>
+        </a>
+        <a class="nav-link" href="#kategori" data-page="kategori">
+          <span class="material-symbols-outlined">category</span>
+          <span>Kategori</span>
+        </a>
+        <a class="nav-link" href="#supplier" data-page="supplier">
+          <span class="material-symbols-outlined">local_shipping</span>
+          <span>Supplier</span>
+        </a>
+      </nav>
+      <!-- Sidebar Footer: User Profile + Logout -->
+      <div class="sidebar-footer">
+        <div class="sidebar-user">
+          <div class="sidebar-avatar" id="sidebarAvatar">A</div>
+          <div class="sidebar-user-info">
+            <span class="sidebar-user-name" id="sidebarUserName">Admin</span>
+            <span class="sidebar-user-email" id="sidebarUserEmail">admin@smartinventory.com</span>
+          </div>
+        </div>
+        <button class="sidebar-logout-btn" id="btnLogout" title="Logout">
+          <span class="material-symbols-outlined">logout</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+      <!-- Topbar -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="topbar-btn mobile-menu-btn" id="menuBtn">
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+          <h2 class="topbar-title" id="topbarTitle">Dashboard</h2>
+        </div>
+        <div class="topbar-right">
+          <button class="topbar-btn"><span class="material-symbols-outlined">notifications</span></button>
+          <button class="topbar-btn"><span class="material-symbols-outlined">settings</span></button>
+          <div class="topbar-divider"></div>
+          <div class="topbar-user">
+            <div class="topbar-avatar" id="topbarAvatar">A</div>
+            <span class="topbar-user-name" id="topbarUserName">Admin</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Content -->
+      <main class="main-content" id="appContent">
+        <div class="loading"><div class="spinner"></div> Memuat...</div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Modal Container -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modalContent"></div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/dashboard.js"></script>
+  <script src="/js/barang.js"></script>
+  <script src="/js/kategori.js"></script>
+  <script src="/js/supplier.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
+

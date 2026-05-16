@@ -1,0 +1,32 @@
+[
+  {
+    "id": "KAT-001",
+    "nama": "Elektronik",
+    "deskripsi": "Perangkat elektronik kantor dan komputer",
+    "createdAt": "2026-01-15T08:00:00Z"
+  },
+  {
+    "id": "KAT-002",
+    "nama": "ATK",
+    "deskripsi": "Alat Tulis Kantor dan persediaan kertas",
+    "createdAt": "2026-01-15T08:00:00Z"
+  },
+  {
+    "id": "KAT-003",
+    "nama": "Furniture",
+    "deskripsi": "Meja, kursi, lemari arsip, dan perabot kantor",
+    "createdAt": "2026-01-20T08:00:00Z"
+  },
+  {
+    "id": "KAT-004",
+    "nama": "Alat Kebersihan",
+    "deskripsi": "Perlengkapan dan cairan pembersih fasilitas",
+    "createdAt": "2026-02-01T08:00:00Z"
+  },
+  {
+    "id": "KAT-005",
+    "nama": "Perlengkapan Gudang",
+    "deskripsi": "Rak, palet, dan alat penyimpanan gudang",
+    "createdAt": "2026-02-10T08:00:00Z"
+  }
+]

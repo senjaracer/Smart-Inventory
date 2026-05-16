@@ -1,0 +1,17 @@
+{
+  "name": "smart-inventory",
+  "version": "1.0.0",
+  "description": "Smart Inventory Admin Dashboard - Full Stack Application",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "keywords": ["inventory", "dashboard", "management"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}

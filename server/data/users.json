@@ -1,0 +1,20 @@
+[
+  {
+    "id": "USR-001",
+    "nama": "Admin",
+    "email": "admin@smartinventory.com",
+    "password": "admin123",
+    "role": "admin",
+    "avatar": "",
+    "createdAt": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "USR-002",
+    "nama": "Operator",
+    "email": "operator@smartinventory.com",
+    "password": "operator123",
+    "role": "operator",
+    "avatar": "",
+    "createdAt": "2026-01-15T00:00:00Z"
+  }
+]
