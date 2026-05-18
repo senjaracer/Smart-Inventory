@@ -192,7 +192,13 @@ const App = {
     });
 
     // Update topbar title
-    const titles = { dashboard: 'Dashboard', barang: 'Daftar Barang', kategori: 'Kategori', supplier: 'Supplier' };
+    const titles = { 
+      dashboard: 'Dashboard', 
+      barang: 'Daftar Barang', 
+      kategori: 'Kategori', 
+      supplier: 'Supplier',
+      profile: 'Profile Kelompok'
+    };
     document.getElementById('topbarTitle').textContent = titles[hash] || 'Dashboard';
 
     // Close mobile sidebar
@@ -204,6 +210,7 @@ const App = {
       case 'barang': BarangPage.render(); break;
       case 'kategori': KategoriPage.render(); break;
       case 'supplier': SupplierPage.render(); break;
+      case 'profile': ProfilePage.render(); break;
       default: DashboardPage.render(); break;
     }
   },
